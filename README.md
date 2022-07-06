@@ -8,9 +8,9 @@ composer install
 # or: composer update 
 # or: composer install --ignore-platform-reqs  
 cp .env.example .env
-php artisan key:generate
 create database: laravel-pvb-socialnetwork
 php artisan migrate
+php artisan key:generate
 php artisan serve
 ```
 
