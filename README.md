@@ -8,8 +8,9 @@ Project Stopped
 ```bash
 cp .env.example .env
 composer install 	
+# or: composer install --ignore-platform-reqs
 # or: composer update 
-# or: composer install --ignore-platform-reqs  
+# or: composer update --ignore-platform-reqs  
 create database: laravel-pvb-socialnetwork
 php artisan migrate
 php artisan key:generate
