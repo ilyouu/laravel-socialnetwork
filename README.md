@@ -1,13 +1,15 @@
-## laravel socialnetwork
+## Laravel SocialNetwork
 
-#### Project Stopped
+```bash
+Project Stopped
+```
 
 ### Install: (Run in Terminal)
 ```bash
+cp .env.example .env
 composer install 	
 # or: composer update 
 # or: composer install --ignore-platform-reqs  
-cp .env.example .env
 create database: laravel-pvb-socialnetwork
 php artisan migrate
 php artisan key:generate
